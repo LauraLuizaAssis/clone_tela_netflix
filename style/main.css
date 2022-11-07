@@ -41,6 +41,19 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+    text-decoration: underline;
+}
+
+.btn-login {
+    color: #AAA ;
+    background-color: #141414;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    color: #fff;
 }
 
 /*filme principal*/
@@ -110,6 +123,10 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 15px;
+}
+
+.item {
+    cursor: pointer;
 }
 
 footer{
